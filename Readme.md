@@ -1,7 +1,7 @@
 # Личный проект «Пинк» 
 
-* Студент: [Марго Розенталь](https://up.htmlacademy.ru/adaptive/23/user/1815697).
-* Наставник: `Неизвестно`.
+* Студент: [Маргарита Розенталь](https://up.htmlacademy.ru/adaptive/23/user/1815697).
+* Наставник: [Егор Дьяченко](https://htmlacademy.ru/profile/semperhomolupus).
 
 ---
 
