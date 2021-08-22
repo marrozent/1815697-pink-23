@@ -1,0 +1,43 @@
+.catalog {
+    background-image: url('../../img/backgrounds/catalog-mobile.png');
+    background-repeat: no-repeat;
+
+    &__item {
+      background-color: $background-grey;
+    }
+
+    &__title {
+    color: $basic-white;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+    }
+    &__description-title {
+      color: $basic-dark;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 30px;
+    }
+    &__list {
+      list-style: none;
+    }
+    &__user {
+      color: $basic-dark;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 24px;
+    }
+    &__description {
+      color: $basic-dark;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+    }
+    &__likes {
+      color: $basic-pink;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 24px;
+    }
+
+}

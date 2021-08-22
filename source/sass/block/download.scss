@@ -1,0 +1,15 @@
+.download {
+  background-image: url('../../img/backgrounds/background__phone.jpg');
+  background-repeat: no-repeat;
+
+  &__title {
+    font-weight: 300;
+    color: $basic-white;
+  }
+
+  &__link {
+    font-weight: 700;
+    color: $basic-white;
+  }
+
+}

@@ -1,0 +1,41 @@
+.tariffs {
+  background-color: $background-grey;
+
+  &__table {
+    border: 2px solid $light-grey;
+    border-collapse: collapse;
+  }
+
+  &__column {
+    border: 2px solid $light-grey;
+  }
+
+  &__column {
+    font-weight: 700;
+    color: $basic-white;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  &__column--description {
+    font-weight: 400;
+    color: $basic-dark;
+    font-size: 14px;
+    line-height: 30px;
+  }
+
+  &__price {
+    font-weight: 300;
+    color: $basic-white;;
+    font-size: 18px;
+    line-height: 300px;
+  }
+
+  & {
+
+  }
+
+  & {
+
+  }
+}

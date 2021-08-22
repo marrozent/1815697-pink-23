@@ -1,0 +1,26 @@
+.advantages {
+  background-color: $background-grey;
+
+  &__title {
+    font-weight: 300;
+    color: $basic-black;
+  }
+
+  &__list {
+    list-style: none;
+  }
+
+  &__item-title {
+    font-weight: 700;
+    color: $basic-black;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  &_description {
+    font-weight: 400;
+    color: $basic-black;
+    font-size: 14px;
+    line-height: 30px;
+  }
+}

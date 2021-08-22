@@ -1,0 +1,28 @@
+.hit {
+  &__user {
+    color: $basic-dark;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  &__active {
+    color: $basic-dark;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  &__description {
+    color: $basic-dark;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  &__likes {
+    color: $basic-pink;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+  }
+}
