@@ -1,6 +1,7 @@
 .download {
   background-image: url('../../img/backgrounds/background__phone.jpg');
   background-repeat: no-repeat;
+  background-size: cover;
 
   &__title {
     font-weight: 300;
@@ -11,5 +12,13 @@
     font-weight: 700;
     color: $basic-white;
   }
+
+    @media (min-width:$tablet-width) {
+    background-image: url('../../img/backgrounds/background__tablet.jpg');
+    }
+
+    @media (min-width:$desktop-width) {
+    background-image: url('../../img/backgrounds/background__dekstop.jpg');
+    }
 
 }
