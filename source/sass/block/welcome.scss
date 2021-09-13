@@ -1,0 +1,51 @@
+.welcome {
+  display:block;
+  padding-top: 102px;
+  background-image: url('../../img/backgrounds/welcome__phone.jpg');
+  min-height: 237px;
+  background-repeat: no-repeat;
+  background-color: #1E394C;
+  background-size: cover;
+  box-sizing: border-box;
+
+  @media (min-width:$tablet-width) {
+    padding-top: 191px;
+    background-image: url('../img/backgrounds/welcome__tablet.jpg');
+    min-height: 440px;
+  }
+
+
+  @media (min-width:$desktop-width) {
+    padding-top: 181px;
+    background-image: url('../img/backgrounds/welcome__desktop.jpg');
+    min-height: 394px;
+  }
+}
+
+.welcome__title {
+  display: block;
+  text-align: center;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  margin: 0 auto;
+  color: $basic-white;
+  max-width: 228px;
+
+  @media  (min-width:$tablet-width) {
+    font-size: 50px;
+    line-height: 68px;
+    color: $basic-white;
+    max-width: 620px;
+    margin: 0 auto;
+
+  }
+
+  @media (min-width:$desktop-width) {
+    font-size: 50px;
+    line-height: 68px;
+    color: $basic-white;
+    max-width: 748px;
+    margin: 0 auto;
+  }
+}

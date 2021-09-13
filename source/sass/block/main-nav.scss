@@ -1,0 +1,107 @@
+.main-nav {
+  background-color: rgba($color: #000000, $alpha: 0.3);
+  width: 100%;
+  min-height: 66px;
+
+
+  @media (min-width:$tablet-width){
+    min-height: 110px;
+  }
+
+}
+
+.main-nav__wrapper {
+  @media (min-width: $desktop-width) {
+    display: flex;
+    padding-top: 27px;
+    justify-content: space-between;
+    align-items: center;
+    }
+}
+
+.main-nav__list {
+  list-style: none;
+  display: none;
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    }
+}
+
+.main-nav__item {
+  @media (min-width: $desktop-width) {
+    margin-right: 78px;
+  }
+}
+
+.main-nav__link {
+  @media (min-width: $desktop-width) {
+    text-decoration: none;
+    color: $basic-white;
+  }
+}
+
+
+.main-nav__logo {
+  display: block;
+  margin-left: 20px;
+  margin-left: 20px;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+
+}
+}
+
+.main-nav__logo-tablet {
+
+  display: none;
+  margin-top: 27px ;
+  margin-left: 20px ;
+
+
+    @media (min-width: $tablet-width) {
+    display: block;
+  }
+
+    @media (min-width: $desktop-width) {
+    display:none;
+  }
+
+}
+
+.main-nav__logo-desktop {
+  display: none;
+  margin-left: 130px ;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+
+    @media (min-width: $desktop-width) {
+    display:block;
+    }
+}
+
+.main-nav__img {
+  display: block;
+}
+
+
+.main-nav__toggle {
+  width: 50px;
+  height: 24px;
+  background-color: transparent;
+  outline: none;
+  background-image: url('../img/icon/toggle.svg');
+  border: none;
+  position:absolute;
+  top: 23px;
+  right: 20px;
+
+  @media (min-width: $desktop-width) {
+    display:none;
+    }
+
+
+}

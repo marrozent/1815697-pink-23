@@ -1,7 +1,8 @@
 .download {
-  background-image: url('../../img/backgrounds/background__phone.jpg');
+  background-image: url('../img/backgrounds/background__phone.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 1px;
 
   &__title {
     font-weight: 300;
@@ -14,11 +15,11 @@
   }
 
     @media (min-width:$tablet-width) {
-    background-image: url('../../img/backgrounds/background__tablet.jpg');
+    background-image: url('../img/backgrounds/background__tablet.jpg');
     }
 
     @media (min-width:$desktop-width) {
-    background-image: url('../../img/backgrounds/background__dekstop.jpg');
+    background-image: url('../img/backgrounds/background__dekstop.jpg');
     }
 
 }
